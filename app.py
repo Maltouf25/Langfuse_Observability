@@ -9,7 +9,7 @@ try:
     from langfuse import Langfuse
     LANGFUSE_PUBLIC_KEY = os.getenv("LANGFUSE_PUBLIC_KEY")
     LANGFUSE_SECRET_KEY = os.getenv("LANGFUSE_SECRET_KEY")
-    LANGFUSE_HOST       = os.getenv("LANGFUSE_HOST", "https://cloud.langfuse.com")
+    LANGFUSE_HOST       = os.getenv("LANGFUSE_HOST")
     if not (LANGFUSE_PUBLIC_KEY and LANGFUSE_SECRET_KEY):
         LF_ENABLED = False
     else:
