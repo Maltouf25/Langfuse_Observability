@@ -1,11 +1,4 @@
-<<<<<<< HEAD
 fastapi==0.111.0
 uvicorn==0.30.1
 requests==2.32.3
 langfuse==2.44.0
-=======
-fastapi
-uvicorn
-langfuse
-pydantic
->>>>>>> 6e53e8bd2051e2dd006f79a8202a26a7f5cfac4e
