@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.build/
+dist/
+.pytest_cache/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Env / secrets
+.env
+.env.*
+
+# Editors
+.vscode/
+*.code-workspace
+
+# (Optional) ignore local test scripts
+smoke*.py
