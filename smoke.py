@@ -5,11 +5,7 @@ import uuid
 from langfuse import Langfuse
 
 # ==== PUT YOUR KEYS HERE (for a quick local test only) ====
-MISTRAL_API_KEY      = "IJtcxcjoTgYbolJzCh4gz2xbmiPB9QW8"
-MISTRAL_MODEL        = "mistral-small-latest"   # or another model
-LANGFUSE_PUBLIC_KEY  = "pk-lf-a104f5c6-5aaa-431e-837f-81a4d5adb44a"
-LANGFUSE_SECRET_KEY  = "sk-lf-15ec75b4-736d-4126-9ab1-195512e29c27"
-LF_HOST    = "https://langfuse.libeo.tech"  # keep default if on Cloud
+ # keep default if on Cloud
 # ==========================================================
 
 # Init Langfuse

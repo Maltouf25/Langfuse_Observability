@@ -16,11 +16,7 @@ from ddtrace.llmobs.decorators import workflow, llm
 
 
 # Initialize Datadog LLM Observability
-DD_API_KEY = "6fa027d10d440a8578b29f4990096258"
-DD_SITE = "datadoghq.eu"           # or "datadoghq.com"
-MISTRAL_API_KEY = "IJtcxcjoTgYbolJzCh4gz2xbmiPB9QW8"
-MISTRAL_MODEL = "mistral-small-latest"
-MISTRAL_URL = "https://api.mistral.ai/v1/chat/completions"
+
 
 LLMObs.enable(
     api_key=DD_API_KEY,

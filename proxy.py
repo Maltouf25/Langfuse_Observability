@@ -6,11 +6,7 @@ from langfuse import Langfuse
 
 # ==== Hardcode your keys here (⚠️ not recommended for prod) ====
 
-MISTRAL_API_KEY      = "IJtcxcjoTgYbolJzCh4gz2xbmiPB9QW8"
-MISTRAL_MODEL        = "mistral-small-latest"   # or another model
-LF_PUBLIC_KEY  = "pk-lf-a104f5c6-5aaa-431e-837f-81a4d5adb44a"
-LF_SECRET_KEY   = "sk-lf-15ec75b4-736d-4126-9ab1-195512e29c27"
-LF_HOST    = "https://langfuse.libeo.tech" 
+
 # ===============================================================
 
 lf = Langfuse(public_key=LF_PUBLIC_KEY, secret_key=LF_SECRET_KEY, host=LF_HOST)
